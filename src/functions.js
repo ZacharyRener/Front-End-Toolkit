@@ -17,7 +17,7 @@ export class Functions {
 
         people.forEach( person => {
             
-            console.log( `${person} :)` );
+            console.log( `${person} :D` );
 
         } )
 
