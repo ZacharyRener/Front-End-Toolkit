@@ -7,7 +7,7 @@
 **/
 
 import $ from 'jquery'
-// hello from the old master branch before merging. this one has :) 
+
 import people from './_person.js'
 
 export class Functions {
@@ -17,7 +17,7 @@ export class Functions {
 
         people.forEach( person => {
             
-            console.log( `${person} :D` );
+            console.log( `${person}!` );
 
         } )
 
