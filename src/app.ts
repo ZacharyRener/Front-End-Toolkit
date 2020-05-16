@@ -13,9 +13,9 @@
 
 import './../assets/main.scss'
 
-import { Routing } from './routing.js'
+import { Routing } from './routing.ts'
 
-import $ from 'jquery'
+import * as $ from 'jquery'
 
 $( document).ready( () => {
 

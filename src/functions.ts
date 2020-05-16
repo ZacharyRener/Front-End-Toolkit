@@ -2,22 +2,22 @@
 
     This file is mainly a playground to add any code needed.
     Add a method here, import what you need, and then call the
-    method in routing.js wherever you need it executed.
+    method in routing.ts wherever you need it executed.
     
 **/
 
-import $ from 'jquery'
+import * as $ from 'jquery'
 
-import people from './_person.js'
+import people from './_person.ts'
 
 export class Functions {
 
-    /* Prints the people imported from _person.js */
-    printPeople() {
+    /* Prints the people imported from _person.ts */
+    printPeople = () => {
 
         people.forEach( person => {
             
-            console.log( `${person}!` );
+            console.log( `${person}!` )
 
         } )
 

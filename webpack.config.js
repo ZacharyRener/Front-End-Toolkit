@@ -1,9 +1,11 @@
 module.exports = {
-    entry: './src/app.js',
+    mode: 'development',
+    entry: './src/app.ts',
     output: {
         path: __dirname + '/dist',
         filename: 'app.bundle.js'
     },
+    devtool: 'inline-source-map',
     module: {
         rules: [
             { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
@@ -18,6 +20,14 @@ module.exports = {
                   'sass-loader',
                 ],
             },
+            {
+                test: /\.tsx?$/,
+                use: 'ts-loader',
+                exclude: /node_modules/,
+            },
         ]
-    }
+    },
+    resolve: {
+        extensions: [ '.tsx', '.ts', '.js' ],
+    },
 }
