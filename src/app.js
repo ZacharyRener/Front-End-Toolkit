@@ -1,13 +1,24 @@
+/**
+
+    This file is compiled by webpack and Babel
+    by running the command "webpack" on the server.
+    Run "webpack --watch" to auto-compile
+
+    This uses a client-side router to determine
+    what JavaScript should be executed where.
+    
+    Please add additional code in routing.js & functions.js
+
+**/
+
 import './../assets/main.scss'
-import people from './_person.js'
 
+import { Routing } from './routing.js'
 
-const main = () => {
+import $ from 'jquery'
 
-    people.forEach(person=>{
-        console.log(person + " :) ")
-    })
+$( document).ready( () => {
 
-}
+    const router = new Routing()
 
-main()
+} ) 
