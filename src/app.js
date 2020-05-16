@@ -1,3 +1,13 @@
-import people from './person.js';
+import './../assets/main.scss'
+import people from './_person.js'
 
-console.log(people);
+
+const main = () => {
+
+    people.forEach(person=>{
+        console.log(person + " :) ")
+    })
+
+}
+
+main()
