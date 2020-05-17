@@ -2,7 +2,7 @@
 ## Features:
 Webpack, Babel, Sass-Loader
 ## Description:
-Boilerplate for compiling SCSS/Sass into inline-CSS, and ES6 JavaScript into ES5. Uses object-oriented client-side routing
+Boilerplate for compiling SCSS/Sass into inline-CSS, and ES6 JavaScript or TypeScript into ES3. Uses object-oriented client-side routing
 ## Usage
 **1. Install the tool kit**
 
