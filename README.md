@@ -1,6 +1,6 @@
 # Webpack Toolkit
 ## Features:
-Webpack, Babel, Sass-Loader
+Webpack, TypeScript, Babel, Sass-Loader
 ## Description:
 Boilerplate for compiling SCSS/Sass into inline-CSS, and ES6 JavaScript or TypeScript into ES3. Uses object-oriented client-side routing
 ## Usage
