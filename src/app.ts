@@ -1,7 +1,7 @@
 /**
 
     This file is compiled by webpack and Babel
-    by running the command "webpack" on the server.
+    by running the command "webpack" on the terminal.
     Run "webpack --watch" to auto-compile
 
     This uses a client-side router to determine
@@ -13,9 +13,9 @@
 
 import './../assets/main.scss'
 
-import { Routing } from './routing.js'
+import { Routing } from './routing.ts'
 
-import $ from 'jquery'
+import * as $ from 'jquery'
 
 $( document).ready( () => {
 

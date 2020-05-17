@@ -4,5 +4,6 @@
     
 **/
 
-people = ["Janko", "Zachary", "Todd"]
-module.exports = people
+const people = ["Janko", "Zachary", "Todd"]
+
+export default people
