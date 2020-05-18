@@ -27,7 +27,6 @@ Boilerplate for compiling SCSS/Sass into inline-CSS, and ES6 JavaScript or TypeS
     git clone https://github.com/ZacharyRener/Webpack-Toolkit
     cd Webpack-Toolkit
     npm install
-    webpack --watch
     
 **2. Add it to your website**
 
