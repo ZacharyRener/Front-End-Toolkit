@@ -10,6 +10,18 @@ Boilerplate for compiling SCSS/Sass into inline-CSS, and ES6 JavaScript or TypeS
     cd Webpack-Toolkit
     npm install
     webpack --watch
+    
 **2. Add it to your website**
 
     <script src="./Webpack-Toolkit/dist/app.bundle.js"></script>
+    
+## Troubleshooting
+**Make sure you have updated versions of Node and NPM**
+    
+    npm cache clean -f
+    npm install -g n
+    n latest
+    
+    npm install -g npm@latest
+    
+
