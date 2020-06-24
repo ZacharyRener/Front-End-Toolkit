@@ -1,6 +1,6 @@
 module.exports = {
     mode: 'development',
-    entry: './scripts/main.js',
+    entry: './scripts/main.tsx',
     output: {
         path: __dirname + '/build',
         filename: 'main.min.js'
@@ -8,7 +8,7 @@ module.exports = {
     devtool: 'inline-source-map',
     module: {
         rules: [
-            { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
+            { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader", options: { presets: ['react'] }},
             {
                 test: /\.s[ac]ss$/i,
                 use: [
