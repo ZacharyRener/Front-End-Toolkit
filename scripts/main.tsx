@@ -1,5 +1,6 @@
-import Router from './util/Router';
-import common from './routes/common';
+import Router from './util/Router'
+import common from './routes/common'
+import '../styles/main.scss'
 
 const routes = new Router({
 
@@ -8,4 +9,4 @@ const routes = new Router({
 
 })
 
-document.addEventListener('DOMContentLoaded', () => { routes.loadEvents() });
+document.addEventListener('DOMContentLoaded', () => { routes.loadEvents() })
