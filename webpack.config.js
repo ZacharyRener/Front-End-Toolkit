@@ -1,14 +1,14 @@
 module.exports = {
     mode: 'development',
-    entry: './src/app.ts',
+    entry: './scripts/main.tsx',
     output: {
-        path: __dirname + '/dist',
-        filename: 'app.bundle.js'
+        path: __dirname + '/build',
+        filename: 'main.min.js'
     },
     devtool: 'inline-source-map',
     module: {
         rules: [
-            { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
+            { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader", options: { presets: ['react'] }},
             {
                 test: /\.s[ac]ss$/i,
                 use: [
