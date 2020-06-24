@@ -1,9 +1,9 @@
 module.exports = {
     mode: 'development',
-    entry: './src/app.ts',
+    entry: './scripts/main.js',
     output: {
-        path: __dirname + '/dist',
-        filename: 'app.bundle.js'
+        path: __dirname + '/build',
+        filename: 'main.min.js'
     },
     devtool: 'inline-source-map',
     module: {
