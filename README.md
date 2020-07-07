@@ -1,6 +1,6 @@
 # Front-end Developer Toolkit
 ## Features:
-React, WordPress-based DOM routing, SASS, Webpack, TypeScript, Babel
+React, DOM routing based on body class, SASS, Webpack, TypeScript, Babel
 ## Description:
 Boilerplate for a SASS & React based workflow
 ## Usage
