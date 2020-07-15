@@ -29,8 +29,10 @@ Boilerplate for a SASS & React based workflow
 
 
 ## For MIFW
-<!-- ============================================================== -->
-<!-- MIFW Theme Files -->
-<!-- ============================================================== -->
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/Front-End-Toolkit/build/main.min.js" ></script> 
-<!-- ============================================================== -->
+    
+    <!-- ============================================================== -->
+    <!-- MIFW Theme Files -->
+    <!-- ============================================================== -->
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/Front-End-Toolkit/build/main.min.js" ></script> 
+    <!-- ============================================================== -->
+    
